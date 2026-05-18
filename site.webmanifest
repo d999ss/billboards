@@ -1,0 +1,12 @@
+{
+  "name": "Utah Billboards",
+  "short_name": "Utah Billboards",
+  "description": "Own the land and the sign. How the money works, how to get in, how much to buy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f3",
+  "theme_color": "#131211",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" }
+  ]
+}

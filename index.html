@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Utah Billboards — Own the Land + the Sign</title>
+<meta name="description" content="A billboard is a small cash-flow machine. Own the dirt and the structure, skip ground rent, and the money is made on two moves: digital conversion and assembling past $1M aggregate NOI.">
+<meta name="author" content="Donny Smith">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Utah Billboards — Own the Land + the Sign">
+<meta property="og:description" content="How the money works, how to get in, how much to buy.">
+<meta property="og:site_name" content="Utah Billboards">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://utah-billboards.com/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Utah Billboards — Own the Land + the Sign">
+<meta name="twitter:description" content="How the money works, how to get in, how much to buy.">
+
+<link rel="canonical" href="https://utah-billboards.com/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#131211">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #131211;
+    --paper: #faf8f3;
+    --rule: #d9d4c5;
+    --muted: #6b665c;
+    --link: #b51d24;
+    --accent: #b89a3c;
+  }
+
+  /* Cross-document view transitions — insanitywolf pattern */
+  @view-transition { navigation: auto; }
+  .site-nav .masthead { view-transition-name: site-masthead; }
+  ::view-transition-old(site-masthead),
+  ::view-transition-new(site-masthead) {
+    animation-duration: 720ms;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  ::view-transition-old(root) { animation: iw-fade-out 360ms cubic-bezier(0.22,1,0.36,1) both; }
+  ::view-transition-new(root) { animation: iw-fade-in 520ms cubic-bezier(0.22,1,0.36,1) both; animation-delay:120ms; }
+  @keyframes iw-fade-out { to { opacity: 0; } }
+  @keyframes iw-fade-in { from { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Spectral", "Iowan Old Style", "Charter", "Georgia", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  /* Top masthead — insanitywolf */
+  .site-nav { padding: 22px 32px; text-align: center; }
+  .site-nav .masthead {
+    font-family: "Spectral", serif; font-style: italic; font-weight: 700;
+    font-size: 28px; letter-spacing: -0.02em; color: var(--ink); margin: 0; line-height: 1;
+  }
+  .site-nav .masthead a:hover { opacity: 0.7; }
+
+  /* Article hero */
+  .hero {
+    max-width: 720px; margin: 0 auto; padding: 40px 32px 56px; text-align: center;
+  }
+  .hero-eyebrow {
+    font-family: "Inter", sans-serif; font-size: 13px; letter-spacing: 0.32em;
+    text-transform: uppercase; color: var(--ink); font-weight: 700; margin-bottom: 28px;
+  }
+  .hero-headline {
+    font-family: "Spectral", serif; font-weight: 700; font-size: 58px; line-height: 1.04;
+    letter-spacing: -0.035em; color: var(--ink); margin: 0 0 24px;
+  }
+  .hero-deck {
+    font-family: "Spectral", serif; font-style: italic; font-size: 22px; line-height: 1.55;
+    color: #2a261e; margin: 0 auto 26px; max-width: 540px;
+  }
+  .hero-meta {
+    font-family: "Inter", sans-serif; font-size: 11px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--muted); font-weight: 600;
+  }
+
+  /* Body */
+  .doc { max-width: 720px; margin: 0 auto; padding: 0 32px 40px; }
+  .doc p { margin: 18px 0; }
+  .lead {
+    font-family: "Spectral", serif; font-style: italic; font-size: 22px;
+    line-height: 1.55; color: #2a261e; margin: 0 0 8px;
+  }
+  .doc strong { font-weight: 600; }
+  .doc em { color: var(--muted); font-style: italic; }
+
+  .section-label {
+    font-family: "Inter", sans-serif; font-size: 11px; letter-spacing: 0.28em;
+    text-transform: uppercase; color: var(--ink); font-weight: 700;
+    margin: 56px 0 4px; padding-bottom: 10px; border-bottom: 1px solid var(--rule);
+  }
+  .section-label .n { color: var(--link); margin-right: 12px; }
+
+  .moat {
+    background: var(--ink); color: var(--paper); padding: 30px 34px; margin: 32px 0;
+    font-family: "Spectral", serif; font-size: 21px; line-height: 1.5;
+  }
+  .moat b { color: var(--accent); font-weight: 600; font-style: normal; }
+
+  table { width: 100%; border-collapse: collapse;
+    font-family: "Inter", sans-serif; font-size: 14px; margin: 24px 0; }
+  th, td { text-align: left; padding: 12px 12px; border-bottom: 1px solid var(--rule); }
+  th { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; }
+  tr.hi td { background: rgba(184,154,60,0.13); font-weight: 600; }
+
+  .waterfall { display: flex; flex-wrap: wrap; gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule); margin: 28px 0; }
+  .wf { flex: 1; min-width: 130px; background: var(--paper); padding: 18px 14px;
+    text-align: center; font-family: "Inter", sans-serif; }
+  .wf .v { font-size: 22px; font-weight: 700; }
+  .wf .l { font-size: 10px; color: var(--muted); margin-top: 6px;
+    letter-spacing: 0.1em; text-transform: uppercase; }
+  .wf.net { background: var(--ink); color: var(--paper); }
+  .wf.net .l { color: #b9b3a3; }
+
+  .ladder { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0;
+    font-family: "Inter", sans-serif; }
+  .step { flex: 1; min-width: 140px; background: transparent;
+    border-top: 2px solid var(--accent); padding: 14px 4px 0; }
+  .step b { display: block; font-size: 15px; }
+  .step span { color: var(--muted); font-size: 12px; }
+
+  .callout {
+    border-left: 2px solid var(--link); padding: 4px 0 4px 26px; margin: 30px 0;
+    font-family: "Spectral", serif; font-size: 19px; line-height: 1.55;
+  }
+
+  .doc ul { margin: 18px 0 18px 0; padding: 0; list-style: none; }
+  .doc li { margin: 12px 0; padding-left: 22px; position: relative; }
+  .doc li::before { content: ""; position: absolute; left: 0; top: 13px;
+    width: 6px; height: 6px; background: var(--accent); }
+
+  .src { font-family: "Inter", sans-serif; font-size: 14px; margin: 22px 0; }
+  .src a { display: flex; justify-content: space-between; align-items: baseline;
+    padding: 12px 0; border-bottom: 1px solid var(--rule); transition: color .2s ease; }
+  .src a:hover { color: var(--link); }
+  .src a span { color: var(--muted); font-size: 12px; letter-spacing: 0.04em; }
+
+  .disclaimer {
+    font-family: "Inter", sans-serif; font-size: 11px; line-height: 1.7;
+    color: var(--muted); margin: 44px 0 0; padding-top: 18px;
+    border-top: 1px solid var(--rule); letter-spacing: 0.02em;
+  }
+
+  /* Footer nav — insanitywolf */
+  .footer-nav {
+    text-align: center; padding: 40px 32px 28px; margin-top: 40px;
+    border-top: 1px solid var(--rule);
+    font-family: "Inter", sans-serif; font-size: 11px;
+    letter-spacing: 0.18em; text-transform: uppercase;
+  }
+  .footer-nav a { color: var(--muted); margin: 0 10px; transition: color .2s ease; }
+  .footer-nav a:hover { color: var(--ink); }
+  .tagline {
+    text-align: center; padding: 0 32px 56px;
+    font-family: "Inter", sans-serif; font-size: 11px; letter-spacing: 0.32em;
+    text-transform: uppercase; color: var(--muted); font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+    .site-nav { padding: 16px 20px; }
+    .site-nav .masthead { font-size: 22px; }
+    .hero { padding: 24px 20px 40px; }
+    .hero-headline { font-size: 36px; letter-spacing: -0.03em; }
+    .hero-deck { font-size: 18px; }
+    .doc { padding: 0 20px 32px; }
+    .moat { padding: 22px 22px; font-size: 18px; }
+    .lead { font-size: 19px; }
+    .footer-nav { padding: 32px 20px 20px; font-size: 10px; }
+    .footer-nav a { margin: 0 7px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <p class="masthead"><a href="/">Utah Billboards</a></p>
+</nav>
+
+<header class="hero">
+  <div class="hero-eyebrow">Real Assets · Outdoor Advertising</div>
+  <h1 class="hero-headline">Own the Land<br>+ the Sign</h1>
+  <p class="hero-deck">A small cash-flow machine, hiding behind a permit you can't print.</p>
+  <div class="hero-meta">Compiled 2026·05·18 — Illustrative underwriting ranges, not quotes</div>
+</header>
+
+<article class="doc">
+
+  <p class="lead">A billboard is a small cash-flow machine: contracted ad revenue in, thin operating cost out, and the rest is yours — because you own the dirt and the structure.</p>
+
+  <div class="moat">
+    The fact that makes this real, and explains why nothing is listed for sale: in regulated states the off-premise permit supply is <b>legally fixed and grandfathered</b>. You cannot build one. You can only buy one — and they move off-market.
+  </div>
+
+  <div class="section-label"><span class="n">01</span>How the money actually works</div>
+  <p>Base case: one premium I-15 static two-face on land you own. Owning the land removes ground rent — the single biggest line every other operator pays — so margin runs 70–85% of gross.</p>
+  <div class="waterfall">
+    <div class="wf"><div class="v">$72k</div><div class="l">Gross · 2 faces</div></div>
+    <div class="wf"><div class="v">−$12k</div><div class="l">Opex</div></div>
+    <div class="wf"><div class="v">−$0</div><div class="l">Ground rent</div></div>
+    <div class="wf net"><div class="v">$60k</div><div class="l">Net · ≈83%</div></div>
+  </div>
+
+  <div class="section-label"><span class="n">02</span>What you'd actually buy</div>
+  <p>Read this as <strong>one base case plus one lottery ticket</strong> — not a menu. Static at ~9% unlevered is the real, repeatable outcome. The digital conversion is a low-probability, permit-gated re-rate. It is where the money is made, and the diligence item that makes or breaks every deal.</p>
+  <table>
+    <tr><th>Scenario</th><th class="num">Gross</th><th class="num">NOI</th><th class="num">Mult</th><th class="num">Price</th><th class="num">Cap</th></tr>
+    <tr><td>Small static — secondary hwy</td><td class="num">$36k</td><td class="num">$31k</td><td class="num">10×</td><td class="num">$310k</td><td class="num">10.0%</td></tr>
+    <tr class="hi"><td>Mid — premium I-15 static</td><td class="num">$72k</td><td class="num">$60k</td><td class="num">11×</td><td class="num">$660k</td><td class="num">9.1%</td></tr>
+    <tr><td>Digital conversion <em>(if permitted)</em></td><td class="num">$360k</td><td class="num">$270k</td><td class="num">11×</td><td class="num">≈$3.0M</td><td class="num">~9%</td></tr>
+  </table>
+  <p>A $660k static board plus ~$350k of LED capex (~$1.0M all-in) re-rates to ~$3.0M at the same multiple — <strong>only if local sign code permits digital, which is restrictive in Utah.</strong></p>
+
+  <div class="section-label"><span class="n">03</span>The capital stack</div>
+  <p>Lenders underwrite the permit and the ad contracts, not the dirt. On the stabilized digital case ($3.0M value, $270k NOI):</p>
+  <table>
+    <tr><th>Layer</th><th class="num">Share</th><th>Terms</th></tr>
+    <tr><td>Senior debt</td><td class="num">60% · $1.8M</td><td>8.5% · 15-yr amort → ≈$212k/yr DS</td></tr>
+    <tr><td>Seller note</td><td class="num">~15%</td><td>retiring-operator paper</td></tr>
+    <tr><td>Cash equity</td><td class="num">~$1.2M</td><td>balance</td></tr>
+  </table>
+  <p class="callout"><strong>The honest part:</strong> at ~8.5% debt against a ~9% cap, leverage is roughly neutral on static. DSCR = 270 ÷ 212 = <strong>1.27</strong>. Cash-on-cash ≈ 4.8% plus amortization, escalators and the re-rate. Don't expect levered IRR fireworks on a single static board — the alpha is conversion and consolidation, not financial engineering.</p>
+
+  <div class="section-label"><span class="n">04</span>How much to buy</div>
+  <p>There is a structural arbitrage: sub-$1M cash flow trades at 9–12×; cross <strong>$1M aggregate NOI</strong> and the whole book re-rates to 10–13×. Assembling boards isn't additive — clearing the threshold marks up everything you already own by one to two turns.</p>
+  <div class="ladder">
+    <div class="step"><b>1 board</b><span>~$31–60k NOI · 10×</span></div>
+    <div class="step"><b>3–5 boards</b><span>~$0.3M NOI · 11×</span></div>
+    <div class="step"><b>+1 digital</b><span>~$0.6M NOI · 11×</span></div>
+    <div class="step"><b>$1M+ book</b><span>10–13× · ≈$10–13M exit</span></div>
+  </div>
+  <p><em>The unmodeled cost:</em> reaching $1M aggregate NOI in static boards is 15–30 boards and years of off-market sourcing against majors holding right-of-first-refusal in their markets. What's left for an independent assembler is, by selection, what the majors passed on. Model assembly time and adverse selection — not just the terminal multiple.</p>
+
+  <div class="section-label"><span class="n">05</span>The path in</div>
+  <p>Source via independent operators on the UDOT OAC inventory plus a billboard broker → verify the permit is transferable and fee title conveys → underwrite the documented rent roll at 9–12× → finance (mostly equity / seller note on static) → close, transfer the permit within 90 days, operate, then pursue digital conversion.</p>
+  <ul>
+    <li><strong>Permit.</strong> Valid, transferable UDOT OAC off-premise permit — not "Official." Check renewal date and grandfathered status.</li>
+    <li><strong>Title.</strong> Fee title to the parcel conveys, not merely a ground lease.</li>
+    <li><strong>Income.</strong> In-place advertiser contracts, occupancy, rate card, UDOT AADT traffic counts.</li>
+    <li><strong>Upside.</strong> Local sign-code eligibility for digital — verify first, it is the value lever.</li>
+    <li><strong>Discipline.</strong> 9–12× verified net cash flow. Walk if the income isn't documented.</li>
+  </ul>
+
+  <div class="section-label"><span class="n">06</span>Where to source</div>
+  <div class="src">
+    <a href="https://billboardinsider.com/" target="_blank" rel="noopener">Billboard Insider — industry classifieds <span>billboardinsider.com</span></a>
+    <a href="https://www.outdoorbillboard.com/billboards-for-sale/utah" target="_blank" rel="noopener">OutdoorBillboard.com — set a Utah seller alert <span>outdoorbillboard.com</span></a>
+    <a href="https://www.signvalue.com/financing-billboards/" target="_blank" rel="noopener">SignValue — appraisal &amp; acquisition financing <span>signvalue.com</span></a>
+    <a href="https://connect.udot.utah.gov/business/permits/outdoor-advertising-control/" target="_blank" rel="noopener">UDOT Outdoor Advertising Control <span>connect.udot.utah.gov</span></a>
+    <a href="https://le.utah.gov/xcode/Title72/Chapter7/C72-7-P5_1800010118000101.pdf" target="_blank" rel="noopener">Utah Outdoor Advertising Act — statute <span>le.utah.gov</span></a>
+  </div>
+
+  <p class="callout"><strong>Bottom line.</strong> The cash flow is real but modest on a single static board, and bank leverage barely helps at today's rates — it's an equity / seller-note entry. The money is made on two moves: <strong>(1)</strong> digital conversion (~3–5× on permitted sites) and <strong>(2)</strong> assembling past $1M aggregate NOI to trigger the re-rate, then selling the book to Reagan / Lamar / OUTFRONT. In Utah you can't build the permit — you buy it, off-market.</p>
+
+  <p class="disclaimer">Illustrative underwriting ranges only — not investment advice, not an offer, not a quote. Every deal must be underwritten on its own documented rent roll and verified permit. Capital-stack figures independently checked: $1.8M at 8.5%, 15-year amortization = $212,704/yr debt service, DSCR 1.27, cash-on-cash 4.8%.</p>
+
+</article>
+
+<nav class="footer-nav">
+  <a href="#">Thesis</a>
+  <a href="https://connect.udot.utah.gov/business/permits/outdoor-advertising-control/" target="_blank" rel="noopener">UDOT OAC</a>
+  <a href="https://billboardinsider.com/" target="_blank" rel="noopener">Sourcing</a>
+  <a href="mailto:d999ss@gmail.com">Contact</a>
+</nav>
+<div class="tagline">Own the land · Own the sign · One of fifty states</div>
+
+<script>
+  // Per-visit beacon — insanitywolf pattern (DS.OS visit grammar via /api/hit)
+  (function () {
+    try {
+      var payload = JSON.stringify({ p: location.pathname });
+      var blob = new Blob([payload], { type: 'application/json' });
+      var sent = navigator.sendBeacon && navigator.sendBeacon('/api/hit', blob);
+      if (!sent) {
+        fetch('/api/hit', { method: 'POST', body: payload, headers: { 'Content-Type': 'application/json' }, keepalive: true }).catch(function () {});
+      }
+    } catch (e) {}
+  })();
+</script>
+<!-- Vercel Web Analytics (second source, zero-config) -->
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+<script defer src="/_vercel/insights/script.js"></script>
+
+</body>
+</html>
