@@ -44,13 +44,14 @@
   *{box-sizing:border-box} html,body{margin:0;padding:0}
   body{background:var(--paper);color:var(--ink);font-family:"Spectral","Iowan Old Style","Charter","Georgia",serif;font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:"kern" 1,"liga" 1,"calt" 1;text-rendering:optimizeLegibility}
   a{color:inherit;text-decoration:none}
-  .site-nav{padding:22px 32px;text-align:center}
-  .site-nav .masthead{font-family:"Spectral",serif;font-style:italic;font-weight:700;font-size:28px;letter-spacing:-.02em;color:var(--ink);margin:0;line-height:1}
+  .cover-image{position:relative;width:100%;margin:0;padding:0;background:#f0ede4;line-height:0;view-transition-name:cover-art}
+  .cover-image img{width:100%;height:auto;display:block}
+  .site-nav{position:absolute;top:0;left:0;right:0;padding:22px 32px;text-align:center;z-index:5;line-height:1;pointer-events:none}
+  .site-nav .masthead{font-family:"Spectral",serif;font-style:italic;font-weight:700;font-size:28px;letter-spacing:-.02em;color:var(--ink);margin:0;line-height:1;pointer-events:auto}
+  .site-nav .masthead a{color:inherit;text-decoration:none}
   .site-nav .masthead a:hover{opacity:.7}
   .hero{max-width:880px;margin:0 auto;padding:28px 32px 30px;text-align:center}
   .hero-eyebrow{font-family:"Inter",sans-serif;font-size:13px;letter-spacing:.32em;text-transform:uppercase;color:var(--ink);font-weight:700;margin-bottom:24px}
-  .hero-banner{width:100%;background:var(--ink);line-height:0}
-  .hero-banner img{display:block;width:100%;max-width:1672px;height:auto;margin:0 auto}
   .hero-deck{font-family:"Spectral",serif;font-style:italic;font-size:21px;line-height:1.55;color:#2a261e;margin:0 auto 22px;max-width:540px}
   .hero-meta{font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600}
   .modebar{display:flex;justify-content:center;gap:0;margin:26px auto 0;max-width:720px;padding:0 32px}
@@ -132,11 +133,10 @@
 </head>
 <body>
 
-<nav class="site-nav"><h1 class="masthead"><a href="/">Utah Billboards</a></h1></nav>
-
-<div class="hero-banner">
+<figure class="cover-image">
+  <nav class="site-nav"><h1 class="masthead"><a href="/">Utah Billboards</a></h1></nav>
   <img src="/header.jpg" width="1672" height="941" alt="Welcome to Utah's money printer — Utah Billboards: printing cash, elevating brands" fetchpriority="high">
-</div>
+</figure>
 
 <header class="hero">
   <div class="hero-eyebrow">Real Assets · Outdoor Advertising</div>
