@@ -50,22 +50,20 @@
   .site-nav .masthead{font-family:"Spectral",serif;font-style:italic;font-weight:700;font-size:28px;letter-spacing:-.02em;color:var(--ink);margin:0;line-height:1;pointer-events:auto}
   .site-nav .masthead a{color:inherit;text-decoration:none}
   .site-nav .masthead a:hover{opacity:.7}
-  .hero{max-width:880px;margin:0 auto;padding:28px 32px 30px;text-align:center}
-  .hero-eyebrow{font-family:"Inter",sans-serif;font-size:13px;letter-spacing:.32em;text-transform:uppercase;color:var(--ink);font-weight:700;margin-bottom:24px}
-  .hero-deck{font-family:"Spectral",serif;font-style:italic;font-size:21px;line-height:1.55;color:#2a261e;margin:0 auto 22px;max-width:540px}
-  .hero-meta{font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600}
-  .modebar{display:flex;justify-content:center;gap:0;margin:26px auto 0;max-width:720px;padding:0 32px}
-  .modebar .seg{display:inline-flex;border:1px solid var(--rule);background:var(--panel)}
-  .modebar button{font-family:"Inter",sans-serif;font-weight:600;font-size:12px;letter-spacing:.04em;padding:10px 18px;border:0;background:transparent;color:var(--muted);cursor:pointer;transition:.15s}
-  .modebar button.active{background:var(--ink);color:var(--paper)}
-  .modehint{font-family:"Inter",sans-serif;font-size:11px;color:var(--muted);text-align:center;margin:8px 0 0}
+  .cover-head{max-width:740px;margin:0 auto;padding:46px 32px 22px}
+  .rubric{font-family:"Inter",sans-serif;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--link);font-weight:700;margin:0 0 18px}
+  .cover-title{font-family:"Spectral",serif;font-weight:700;font-size:clamp(32px,5vw,52px);line-height:1.08;letter-spacing:-.025em;color:var(--ink);margin:0}
+  .cover-deck{font-family:"Spectral",serif;font-style:italic;font-weight:500;font-size:clamp(20px,2.8vw,28px);line-height:1.32;color:var(--link);margin:18px 0 0}
+  .cover-meta{font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:24px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
+  .modedock{position:fixed;right:20px;bottom:20px;z-index:60;background:var(--panel);border:1px solid var(--ink);box-shadow:0 6px 24px rgba(19,18,17,.18)}
+  .modedock .seg{display:flex}
+  .modedock button{font-family:"Inter",sans-serif;font-weight:600;font-size:12px;letter-spacing:.03em;padding:11px 15px;border:0;background:transparent;color:var(--muted);cursor:pointer;transition:.15s}
+  .modedock button.active{background:var(--ink);color:var(--paper)}
+  .modedock button:first-child{border-right:1px solid var(--rule)}
   .doc{max-width:740px;margin:0 auto;padding:14px 32px 40px}
   .doc p{margin:16px 0}
   .story{margin:20px 0 8px}
   .story p{font-family:"Spectral",serif;font-size:20px;line-height:1.62;color:#2a261e;margin:20px 0}
-  .story-open{margin:8px 0 30px;padding-bottom:30px;border-bottom:1px solid var(--rule)}
-  .story-open .lede{font-family:"Spectral",serif;font-weight:700;font-size:clamp(30px,4.6vw,44px);line-height:1.12;letter-spacing:-.022em;color:var(--ink);margin:0}
-  .story-open .turnline{font-family:"Spectral",serif;font-style:italic;font-weight:500;font-size:clamp(20px,2.7vw,27px);line-height:1.32;color:var(--link);margin:18px 0 0}
   .story p.first{margin-top:0}
   .story p.first::first-letter{font-family:"Spectral",serif;font-weight:700;font-size:64px;line-height:.78;float:left;margin:7px 14px 0 0;color:var(--ink)}
   .story p.turn{font-style:italic;color:var(--ink)}
@@ -73,7 +71,7 @@
   .story .closer{margin:30px 0 0;padding-top:28px;border-top:2px solid var(--accent);font-family:"Spectral",serif;font-weight:700;font-size:clamp(22px,3vw,30px);line-height:1.28;letter-spacing:-.015em;color:var(--ink)}
   .videowrap{margin:30px 0 8px;border:1px solid var(--ink);background:var(--ink);line-height:0}
   .videowrap video{display:block;width:100%;height:auto}
-  @media (max-width:600px){.story p{font-size:18px}.story p.hook{font-size:21px}}
+  @media (max-width:600px){.story p{font-size:18px}}
   .lead{font-family:"Spectral",serif;font-style:italic;font-size:21px;line-height:1.55;color:#2a261e}
   .doc strong{font-weight:600} .doc em{color:var(--muted);font-style:italic}
   h2{font-family:"Inter",sans-serif;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);font-weight:700;margin:56px 0 6px;padding-bottom:10px;border-bottom:1px solid var(--rule)}
@@ -128,7 +126,7 @@
   .bottomline{max-width:740px;margin:0 auto;padding:0 32px;font-family:"Spectral",serif;font-style:italic;font-size:17px;line-height:1.6;color:#2a261e}
   .tagline{text-align:center;padding:28px 32px 56px;font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);font-weight:600}
   .disclaimer{font-family:"Inter",sans-serif;font-size:11px;line-height:1.7;color:var(--muted);margin:36px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
-  @media (max-width:600px){.site-nav{padding:16px 20px}.site-nav .masthead{font-size:22px}.hero{padding:20px 20px}.hero-headline{font-size:34px;letter-spacing:-.03em}.hero-deck{font-size:18px}.doc{padding:14px 20px 32px}.moat{padding:22px 22px;font-size:18px}.calc{padding:16px}.footer-nav{padding:32px 20px 18px;font-size:10px}.footer-nav a{margin:0 7px}.bottomline{padding:0 20px}}
+  @media (max-width:600px){.site-nav{padding:16px 20px}.site-nav .masthead{font-size:22px}.cover-head{padding:24px 20px 16px}.doc{padding:14px 20px 32px}.modedock{right:12px;bottom:12px}.modedock button{padding:10px 12px;font-size:11px}.moat{padding:22px 22px;font-size:18px}.calc{padding:16px}.footer-nav{padding:32px 20px 18px;font-size:10px}.footer-nav a{margin:0 7px}.bottomline{padding:0 20px}}
 </style>
 </head>
 <body>
@@ -138,27 +136,23 @@
   <img src="/header.jpg" width="1672" height="941" alt="Welcome to Utah's money printer — Utah Billboards: printing cash, elevating brands" fetchpriority="high">
 </figure>
 
-<header class="hero">
-  <div class="hero-eyebrow">Real Assets · Outdoor Advertising</div>
-  <p class="hero-deck">A small cash-flow machine, hiding behind a permit you can't print.</p>
-  <div class="hero-meta">Compiled 2026·05·18 — Links browser-verified — Illustrative ranges, not quotes</div>
-</header>
-
-<div class="modebar">
+<div class="modedock" role="group" aria-label="Reading mode">
   <div class="seg">
-    <button id="mPro" class="active" onclick="setMode('pro')">Industry terms</button>
+    <button id="mPro" class="active" onclick="setMode('pro')">Industry</button>
     <button id="mPlain" onclick="setMode('plain')">Plain English</button>
   </div>
 </div>
-<p class="modehint" id="modehint">Showing the version written for operators and lenders. Switch to plain English to drop the jargon and acronyms.</p>
+
+<header class="cover-head">
+  <div class="rubric">Real Assets · Outdoor Advertising</div>
+  <h1 class="cover-title">Most people drive past billboards every day without a second thought.</h1>
+  <p class="cover-deck">That might be one of the most expensive things they never noticed.</p>
+  <p class="cover-meta">Compiled 2026·05·18 · Illustrative ranges, not quotes</p>
+</header>
 
 <article class="doc">
 
   <section class="story reveal">
-    <div class="story-open">
-      <p class="lede">Most people drive past billboards every day without a second thought.</p>
-      <p class="turnline">That might be one of the most expensive things they never noticed.</p>
-    </div>
     <p class="first">To most people, a billboard is visual noise. Something sitting off the freeway, fading into the background between exits and traffic. But to the right person, it is not a sign. It is infrastructure. Recurring revenue standing in plain sight.</p>
     <p>There was a parcel in Phoenix, just under two acres, with a billboard sitting on it generating roughly $5,000 a year. Most buyers would have looked at the numbers, shrugged, and moved on. The asset was misunderstood.</p>
     <p class="turn">One phone call changed the equation.</p>
@@ -412,9 +406,6 @@
   function setMode(mode){
     document.getElementById('mPro').classList.toggle('active', mode==='pro');
     document.getElementById('mPlain').classList.toggle('active', mode==='plain');
-    document.getElementById('modehint').textContent = mode==='plain'
-      ? 'Showing plain English — jargon, acronyms and finance terms removed. The numbers are unchanged.'
-      : 'Showing the version written for operators and lenders. Switch to plain English to drop the jargon and acronyms.';
     document.querySelectorAll('[data-plain]').forEach(function(el){
       if (el.getAttribute('data-pro') === null) el.setAttribute('data-pro', el.innerHTML);
       el.innerHTML = (mode==='plain') ? el.getAttribute('data-plain') : el.getAttribute('data-pro');
