@@ -125,7 +125,42 @@
   .bottomline{max-width:740px;margin:0 auto;padding:0 32px;font-family:"Spectral",serif;font-style:italic;font-size:17px;line-height:1.6;color:#2a261e}
   .tagline{text-align:center;padding:28px 32px 56px;font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);font-weight:600}
   .disclaimer{font-family:"Inter",sans-serif;font-size:11px;line-height:1.7;color:var(--muted);margin:36px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
-  @media (max-width:600px){.site-nav{padding:16px 20px}.site-nav .masthead{font-size:22px}.cover-head{padding:24px 20px 16px}.doc{padding:14px 20px 32px}.modedock{right:12px;bottom:12px}.modedock button{padding:10px 12px;font-size:11px}.moat{padding:22px 22px;font-size:18px}.calc{padding:16px}.footer-nav{padding:32px 20px 18px;font-size:10px}.footer-nav a{margin:0 7px}.bottomline{padding:0 20px}}
+  /* ---- Lead funnel ---- */
+  .cta-band{max-width:740px;margin:38px auto;padding:0 32px}
+  .cta-band .inner{background:var(--ink);color:var(--paper);padding:26px 30px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+  .cta-band .ct{font-family:"Spectral",serif;font-size:21px;line-height:1.35;font-weight:600;max-width:62%}
+  .cta-band .ct span{color:var(--accent)}
+  .cta-btn{display:inline-block;cursor:pointer;border:0;font-family:"Inter",sans-serif;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:14px 24px;background:var(--accent);color:var(--ink);transition:.15s;white-space:nowrap}
+  .cta-btn:hover{background:var(--paper)}
+  .cta-btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+  .cta-btn.ghost:hover{background:var(--ink);color:var(--paper)}
+  .lead{max-width:740px;margin:56px auto 0;padding:48px 32px 60px;border-top:2px solid var(--accent);background:var(--panel)}
+  .lead .rubric{margin-bottom:14px}
+  .lead h2{border:0;margin:0 0 8px;padding:0;font-size:clamp(26px,3.6vw,38px);font-family:"Spectral",serif;font-weight:700;text-transform:none;letter-spacing:-.02em;color:var(--ink)}
+  .lead .sub{font-family:"Spectral",serif;font-style:italic;font-size:18px;color:#2a261e;margin:0 0 26px;line-height:1.5}
+  .seg-roles{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}
+  .seg-roles button{flex:1;min-width:150px;font-family:"Inter",sans-serif;font-weight:600;font-size:13px;padding:14px 12px;background:var(--paper);border:1px solid var(--rule);color:var(--muted);cursor:pointer;transition:.15s}
+  .seg-roles button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .lead form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .lead label{display:flex;flex-direction:column;gap:5px;font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .lead label.full{grid-column:1/-1}
+  .lead input,.lead textarea{font-family:"Inter",sans-serif;font-size:15px;color:var(--ink);background:var(--paper);border:1px solid var(--rule);padding:12px 13px;outline:none;transition:.15s}
+  .lead input:focus,.lead textarea:focus{border-color:var(--ink)}
+  .lead textarea{resize:vertical;min-height:84px}
+  .lead .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .lead .submit-row{grid-column:1/-1;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:6px}
+  .lead button.cta-btn[type=submit]{padding:15px 30px}
+  .lead .formnote{font-family:"Inter",sans-serif;font-size:12px;color:var(--muted)}
+  .lead .msg{grid-column:1/-1;font-family:"Inter",sans-serif;font-size:14px;padding:10px 0;min-height:1.2em}
+  .lead .msg.err{color:var(--bad)}
+  .lead.done form,.lead.done .seg-roles,.lead.done .sub{display:none}
+  .lead .thanks{display:none;font-family:"Spectral",serif;font-size:22px;line-height:1.5;color:var(--ink)}
+  .lead.done .thanks{display:block}
+  .lead .thanks b{color:var(--accent)}
+  .ctadock{position:fixed;left:20px;bottom:20px;z-index:60}
+  .ctadock button{font-family:"Inter",sans-serif;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:13px 18px;background:var(--accent);color:var(--ink);border:1px solid var(--ink);cursor:pointer;box-shadow:0 6px 24px rgba(19,18,17,.18);transition:.15s}
+  .ctadock button:hover{background:var(--ink);color:var(--paper)}
+  @media (max-width:600px){.site-nav{padding:16px 20px}.site-nav .masthead{font-size:22px}.cover-head{padding:24px 20px 16px}.doc{padding:14px 20px 32px}.modedock{right:12px;bottom:12px}.modedock button{padding:10px 12px;font-size:11px}.moat{padding:22px 22px;font-size:18px}.calc{padding:16px}.footer-nav{padding:32px 20px 18px;font-size:10px}.footer-nav a{margin:0 7px}.bottomline{padding:0 20px}.cta-band{padding:0 20px}.cta-band .inner{padding:22px;flex-direction:column;align-items:flex-start}.cta-band .ct{max-width:100%;font-size:19px}.lead{padding:36px 20px 48px}.lead form{grid-template-columns:1fr}.ctadock{left:12px;bottom:12px}.ctadock button{padding:11px 14px;font-size:11px}}
 </style>
 </head>
 <body>
@@ -166,6 +201,13 @@
     <p>Most people see a billboard on the side of the road.</p>
     <p class="closer">The right people see leverage, cash flow, and a media network hiding in plain sight.</p>
   </section>
+
+  <div class="cta-band reveal">
+    <div class="inner">
+      <div class="ct">Want the <span>deals</span>, not just the thesis?</div>
+      <button class="cta-btn" type="button" onclick="goLead('acquire')">Get on the buyer list</button>
+    </div>
+  </div>
 
   <div class="videowrap reveal">
     <video controls preload="metadata" poster="/clip-poster.jpg" playsinline>
@@ -352,6 +394,13 @@
   </div>
   </div>
 
+  <div class="cta-band reveal">
+    <div class="inner">
+      <div class="ct">Run this model on a <span>real, off-market deal</span> matched to your buy-box.</div>
+      <button class="cta-btn" type="button" onclick="goLead('acquire')">Get matched to deals</button>
+    </div>
+  </div>
+
   <h2 class="reveal">Acquisition checklist</h2>
   <ol class="reveal">
     <li data-plain="<strong>Permit:</strong> a valid government billboard permit that can be transferred to you (not the limited kind), with its renewal date and old-rule protections confirmed."><strong>Permit:</strong> valid UDOT OAC off-premise permit, transferable (not "Official"), renewal date &amp; grandfathered status.</li>
@@ -390,7 +439,41 @@
 
 <p class="bottomline reveal" data-plain="Bottom line: the income is real but modest on a single static sign, and borrowing barely helps at today's rates — it's a cash or pay-the-seller-over-time purchase. The money is made on two moves: <strong>(1) going digital</strong> (worth ~3–5× more where it's allowed) and <strong>(2) building up past $1M a year in total income</strong> so the whole group gets valued higher, then selling it to Reagan, Lamar, or Outfront. In Utah you can't build a new billboard — you buy an existing one, quietly, through owners and the UDOT permit list. All figures are estimates; check every deal on its real documented income.">Bottom line: the cash flow is real but modest on a single static board, and bank leverage barely helps at today's rates — it's an equity/seller-note entry. The money is made on two moves: <strong>(1) digital conversion</strong> (~3–5× value on permitted sites) and <strong>(2) assembling past $1M aggregate NOI</strong> to trigger the multiple re-rate, then selling the book to Reagan / Lamar / Outfront. In Utah you can't build the permit — you buy it, off-market, via operators and the UDOT OAC inventory. All figures illustrative; underwrite every deal on its documented rent roll.</p>
 
+<section class="lead" id="start">
+  <div class="rubric">Deal flow · No spam · No list-selling</div>
+  <h2>Get on the buyer list.</h2>
+  <p class="sub">Off-market billboard-with-land opportunities, verified financials, matched to what you actually want to do. Tell us which side you're on.</p>
+
+  <div class="seg-roles" role="group" aria-label="What you want to do">
+    <button type="button" data-role="acquire" aria-pressed="true" onclick="setRole('acquire')">Acquire billboards</button>
+    <button type="button" data-role="sell" aria-pressed="false" onclick="setRole('sell')">Sell my billboard</button>
+    <button type="button" data-role="advertise" aria-pressed="false" onclick="setRole('advertise')">Advertise on a board</button>
+  </div>
+
+  <form id="leadForm" autocomplete="on" novalidate>
+    <input type="hidden" name="role" id="leadRole" value="acquire">
+    <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label>Name<input type="text" name="name" autocomplete="name"></label>
+    <label>Email<input type="email" name="email" required autocomplete="email" placeholder="you@company.com"></label>
+    <label>Phone<input type="tel" name="phone" autocomplete="tel" placeholder="optional"></label>
+    <label>Budget / timeline<input type="text" name="budget" placeholder="e.g. ~$300k, 90 days"></label>
+    <label class="full" id="msgLabel">Your buy-box — markets, size, static vs digital, owned land vs lease
+      <textarea name="message" placeholder="The more specific you are, the better the match."></textarea>
+    </label>
+    <div class="submit-row">
+      <button class="cta-btn" type="submit">Request access</button>
+      <span class="formnote">One business day. Direct from the operator — never sold or shared.</span>
+    </div>
+    <div class="msg" id="leadMsg" role="status" aria-live="polite"></div>
+  </form>
+
+  <div class="thanks">You're <b>on the list</b>. Expect a direct reply within one business day — from a person, not a sequence.</div>
+</section>
+
+<div class="ctadock"><button type="button" onclick="goLead()">Get deal flow</button></div>
+
 <nav class="footer-nav">
+  <a href="#start">Get deal flow</a>
   <a href="#">Thesis</a>
   <a href="https://connect.udot.utah.gov/business/permits/outdoor-advertising-control/" target="_blank" rel="noopener">UDOT OAC</a>
   <a href="https://billboardinsider.com/" target="_blank" rel="noopener">Sourcing</a>
@@ -488,6 +571,57 @@
     entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
   }, { threshold: 0.18 });
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // ---- Lead funnel ----
+  var ROLE_MSG = {
+    acquire: "Your buy-box — markets, size, static vs digital, owned land vs lease",
+    sell: "Your billboard — location, faces, static/digital, current revenue, land owned or leased",
+    advertise: "What you want to advertise — markets, timing, budget"
+  };
+  function setRole(r){
+    var f = document.getElementById('leadRole'); if (f) f.value = r;
+    document.querySelectorAll('.seg-roles button').forEach(function(b){
+      b.setAttribute('aria-pressed', b.getAttribute('data-role') === r ? 'true' : 'false');
+    });
+    var lbl = document.getElementById('msgLabel');
+    if (lbl) lbl.childNodes[0].nodeValue = (ROLE_MSG[r] || ROLE_MSG.acquire) + ' ';
+  }
+  function goLead(r){
+    if (r) setRole(r);
+    var el = document.getElementById('start');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(function(){ var i = document.querySelector('#leadForm input[name=email]'); if (i) i.focus({ preventScroll: true }); }, 600);
+  }
+  (function () {
+    var form = document.getElementById('leadForm');
+    if (!form) return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var msg = document.getElementById('leadMsg');
+      var btn = form.querySelector('button[type=submit]');
+      var data = {
+        role: (document.getElementById('leadRole') || {}).value || 'acquire',
+        name: form.name.value, email: form.email.value, phone: form.phone.value,
+        website: form.website.value,
+        message: '[' + (form.budget.value || 'no budget given') + '] ' + form.message.value
+      };
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(data.email)) {
+        msg.textContent = 'Enter a valid email so we can reach you.'; msg.className = 'msg err'; form.email.focus(); return;
+      }
+      btn.disabled = true; var label = btn.textContent; btn.textContent = 'Sending…';
+      msg.textContent = ''; msg.className = 'msg';
+      fetch('/api/lead', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
+      }).then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
+        .then(function (j) {
+          if (j && j.ok) { document.getElementById('start').classList.add('done'); }
+          else { msg.textContent = (j && j.error) || 'Something went wrong — email donny@makebttr.com directly.'; msg.className = 'msg err'; btn.disabled = false; btn.textContent = label; }
+        })
+        .catch(function () {
+          msg.textContent = 'Network error — email donny@makebttr.com directly.'; msg.className = 'msg err'; btn.disabled = false; btn.textContent = label;
+        });
+    });
+  })();
 
   // Per-visit beacon — insanitywolf pattern (DS.OS visit grammar via /api/hit)
   (function () {
