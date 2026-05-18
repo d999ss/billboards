@@ -65,6 +65,8 @@
   .story p.hook{font-size:25px;line-height:1.4;font-weight:600;color:var(--ink);margin:8px 0}
   .story p.turn{font-style:italic;color:var(--ink)}
   .story hr{border:0;border-top:1px solid var(--rule);margin:34px 0}
+  .videowrap{margin:30px 0 8px;border:1px solid var(--ink);background:var(--ink);line-height:0}
+  .videowrap video{display:block;width:100%;height:auto}
   @media (max-width:600px){.story p{font-size:18px}.story p.hook{font-size:21px}}
   .lead{font-family:"Spectral",serif;font-style:italic;font-size:21px;line-height:1.55;color:#2a261e}
   .doc strong{font-weight:600} .doc em{color:var(--muted);font-style:italic}
@@ -166,6 +168,12 @@
     <p>Most people see a billboard on the side of the road.</p>
     <p class="hook">The right people see leverage, cash flow, and a media network hiding in plain sight.</p>
   </section>
+
+  <div class="videowrap reveal">
+    <video controls preload="metadata" poster="/clip-poster.jpg" playsinline>
+      <source src="/clip.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <p class="lead" data-plain="A billboard makes money in a simple way: advertisers pay to rent the sign, the running costs are small, and you keep what's left — because you own both the land and the sign itself.">A billboard is a small cash-flow machine: contracted ad revenue in, thin operating cost out, the rest is yours because you own the dirt and the structure.</p>
 
