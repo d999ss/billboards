@@ -54,7 +54,14 @@
   .rubric{font-family:"Inter",sans-serif;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--link);font-weight:700;margin:0 0 18px}
   .cover-title{font-family:"Spectral",serif;font-weight:700;font-size:clamp(32px,5vw,52px);line-height:1.08;letter-spacing:-.025em;color:var(--ink);margin:0}
   .cover-deck{font-family:"Spectral",serif;font-style:italic;font-weight:500;font-size:clamp(20px,2.8vw,28px);line-height:1.32;color:var(--link);margin:18px 0 0}
-  .cover-meta{font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:24px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
+  .author-block{display:flex;align-items:center;gap:14px;margin-top:26px;padding:16px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:"Inter",sans-serif;font-size:13.5px}
+  .avatar{width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--paper);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:"Spectral",serif;font-style:italic;font-weight:700;font-size:15px;letter-spacing:-.02em}
+  .author-info{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .author-info .name{font-weight:700;color:var(--ink);font-size:14px}
+  .author-info .role{font-size:12px;color:var(--muted);font-weight:500}
+  .author-info .name .role-tag{display:inline-block;font-size:11px;color:var(--link);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-left:8px;border-left:1px solid #ddd;padding-left:8px}
+  .meta-right{margin-left:auto;text-align:right;display:flex;flex-direction:column;gap:2px;font-size:12px}
+  .meta-right .date{color:var(--muted);font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:.02em}
   .modedock{position:fixed;right:20px;bottom:20px;z-index:60;background:var(--panel);border:1px solid var(--ink);box-shadow:0 6px 24px rgba(19,18,17,.18)}
   .modedock .seg{display:flex}
   .modedock button{font-family:"Inter",sans-serif;font-weight:600;font-size:12px;letter-spacing:.03em;padding:11px 15px;border:0;background:transparent;color:var(--muted);cursor:pointer;transition:.15s}
@@ -147,7 +154,16 @@
   <div class="rubric">Real Assets · Outdoor Advertising</div>
   <h1 class="cover-title">Most people drive past billboards every day without a second thought.</h1>
   <p class="cover-deck">That might be one of the most expensive things they never noticed.</p>
-  <p class="cover-meta">Compiled 2026·05·18 · Illustrative ranges, not quotes</p>
+  <div class="author-block">
+    <div class="avatar">B</div>
+    <div class="author-info">
+      <div class="name">Bttr <span class="role-tag">Real Assets</span></div>
+      <div class="role">Outdoor advertising · acquisition brief</div>
+    </div>
+    <div class="meta-right">
+      <div class="date">Compiled May 18, 2026</div>
+    </div>
+  </div>
 </header>
 
 <article class="doc">
