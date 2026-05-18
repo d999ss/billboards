@@ -60,11 +60,16 @@
   .modehint{font-family:"Inter",sans-serif;font-size:11px;color:var(--muted);text-align:center;margin:8px 0 0}
   .doc{max-width:740px;margin:0 auto;padding:14px 32px 40px}
   .doc p{margin:16px 0}
-  .story{margin:14px 0 8px}
+  .story{margin:20px 0 8px}
   .story p{font-family:"Spectral",serif;font-size:20px;line-height:1.62;color:#2a261e;margin:20px 0}
-  .story p.hook{font-size:25px;line-height:1.4;font-weight:600;color:var(--ink);margin:8px 0}
+  .story-open{margin:8px 0 30px;padding-bottom:30px;border-bottom:1px solid var(--rule)}
+  .story-open .lede{font-family:"Spectral",serif;font-weight:700;font-size:clamp(30px,4.6vw,44px);line-height:1.12;letter-spacing:-.022em;color:var(--ink);margin:0}
+  .story-open .turnline{font-family:"Spectral",serif;font-style:italic;font-weight:500;font-size:clamp(20px,2.7vw,27px);line-height:1.32;color:var(--link);margin:18px 0 0}
+  .story p.first{margin-top:0}
+  .story p.first::first-letter{font-family:"Spectral",serif;font-weight:700;font-size:64px;line-height:.78;float:left;margin:7px 14px 0 0;color:var(--ink)}
   .story p.turn{font-style:italic;color:var(--ink)}
   .story hr{border:0;border-top:1px solid var(--rule);margin:34px 0}
+  .story .closer{margin:30px 0 0;padding-top:28px;border-top:2px solid var(--accent);font-family:"Spectral",serif;font-weight:700;font-size:clamp(22px,3vw,30px);line-height:1.28;letter-spacing:-.015em;color:var(--ink)}
   .videowrap{margin:30px 0 8px;border:1px solid var(--ink);background:var(--ink);line-height:0}
   .videowrap video{display:block;width:100%;height:auto}
   @media (max-width:600px){.story p{font-size:18px}.story p.hook{font-size:21px}}
@@ -150,9 +155,11 @@
 <article class="doc">
 
   <section class="story reveal">
-    <p class="hook">Most people drive past billboards every day without a second thought.</p>
-    <p class="hook">That might be one of the most expensive things they never noticed.</p>
-    <p>To most people, a billboard is visual noise. Something sitting off the freeway, fading into the background between exits and traffic. But to the right person, it is not a sign. It is infrastructure. Recurring revenue standing in plain sight.</p>
+    <div class="story-open">
+      <p class="lede">Most people drive past billboards every day without a second thought.</p>
+      <p class="turnline">That might be one of the most expensive things they never noticed.</p>
+    </div>
+    <p class="first">To most people, a billboard is visual noise. Something sitting off the freeway, fading into the background between exits and traffic. But to the right person, it is not a sign. It is infrastructure. Recurring revenue standing in plain sight.</p>
     <p>There was a parcel in Phoenix, just under two acres, with a billboard sitting on it generating roughly $5,000 a year. Most buyers would have looked at the numbers, shrugged, and moved on. The asset was misunderstood.</p>
     <p class="turn">One phone call changed the equation.</p>
     <p>After speaking with a billboard management company, it became obvious the sign was massively underperforming. That location should have been generating somewhere between $2,000 and $4,000 per month, not per year.</p>
@@ -166,7 +173,7 @@
     <p>That was not the finish line. That was the proof of concept.</p>
     <p>Now the vision is far larger, building a modern media company around digital billboard infrastructure across the United States. Not just signs, but strategically positioned attention assets sitting on some of the most valuable traffic corridors in the country.</p>
     <p>Most people see a billboard on the side of the road.</p>
-    <p class="hook">The right people see leverage, cash flow, and a media network hiding in plain sight.</p>
+    <p class="closer">The right people see leverage, cash flow, and a media network hiding in plain sight.</p>
   </section>
 
   <div class="videowrap reveal">
