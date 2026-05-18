@@ -1,0 +1,78 @@
+[
+  {
+    "domain": "newyorkbillboards.com",
+    "status": "UNKNOWN"
+  },
+  {
+    "domain": "northcarolinabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "northdakotabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "ohiobillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "oklahomabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "oregonbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "pennsylvaniabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "rhodeislandbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "southcarolinabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "southdakotabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "tennesseebillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "texasbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "utahbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "vermontbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "virginiabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "washingtonbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "westvirginiabillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "wisconsinbillboards.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "wyomingbillboards.com",
+    "status": "TAKEN"
+  }
+]

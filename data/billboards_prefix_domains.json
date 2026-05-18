@@ -1,0 +1,202 @@
+[
+  {
+    "domain": "billboardsalabama.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsalaska.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsarizona.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsarkansas.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardscalifornia.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardscolorado.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsconnecticut.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsdelaware.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsflorida.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardsgeorgia.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardshawaii.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardsidaho.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsillinois.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsindiana.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardsiowa.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardskansas.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardskentucky.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardslouisiana.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmaine.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmaryland.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmassachusetts.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmichigan.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsminnesota.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmississippi.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmissouri.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsmontana.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsnebraska.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsnevada.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsnewhampshire.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsnewjersey.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsnewmexico.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsnewyork.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardsnorthcarolina.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardsnorthdakota.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsohio.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsoklahoma.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsoregon.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardspennsylvania.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsrhodeisland.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardssouthcarolina.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardssouthdakota.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardstennessee.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardstexas.com",
+    "status": "TAKEN"
+  },
+  {
+    "domain": "billboardsutah.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsvermont.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardsvirginia.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardswashington.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardswestvirginia.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardswisconsin.com",
+    "status": "AVAILABLE"
+  },
+  {
+    "domain": "billboardswyoming.com",
+    "status": "AVAILABLE"
+  }
+]
