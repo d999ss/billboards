@@ -51,7 +51,7 @@ export default async function handler(req) {
   } catch (_) {}
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.ALERT_TO_EMAIL;
+  const to = process.env.ALERT_TO_EMAIL || 'hawk@makebttr.com';
   if (!apiKey || !to) return ok;
 
   const from = process.env.ALERT_FROM_EMAIL || 'Utah Billboards <onboarding@resend.dev>';

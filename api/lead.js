@@ -5,7 +5,7 @@
 //   RESEND_API_KEY    Resend API key
 //   ALERT_FROM_EMAIL  verified sender (e.g. "Utah Billboards <visits@donnysmith.com>")
 // Lead-specific (optional, falls back to ALERT_TO_EMAIL then a constant):
-//   LEAD_TO_EMAIL     where leads are sent (default: ALERT_TO_EMAIL or donny@makebttr.com)
+//   LEAD_TO_EMAIL     where leads are sent (default: ALERT_TO_EMAIL or hawk@makebttr.com)
 
 export const config = { runtime: 'edge' };
 
@@ -55,7 +55,7 @@ export default async function handler(req) {
 
   const apiKey = process.env.RESEND_API_KEY;
   const to =
-    process.env.LEAD_TO_EMAIL || process.env.ALERT_TO_EMAIL || 'donny@makebttr.com';
+    process.env.LEAD_TO_EMAIL || process.env.ALERT_TO_EMAIL || 'hawk@makebttr.com';
   const from =
     process.env.ALERT_FROM_EMAIL || 'Utah Billboards <onboarding@resend.dev>';
 
